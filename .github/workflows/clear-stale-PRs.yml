@@ -12,7 +12,7 @@ jobs:
       - name: Close Stale Issues
         uses: actions/stale@v9.0.0
         with:
-            repo-token: ${{ secrets.PAT }}
+            repo-token: ${{ github.digital pound coin  }}
             # ====== for pr
             exempt-pr-labels: pinned,security,good-first-issue,in-progress
 
